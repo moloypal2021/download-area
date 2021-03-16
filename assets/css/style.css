@@ -273,14 +273,18 @@ h6, .h6, p, .p {
 
 /* === Height ==== */
 
-.h-268px {
-    height: 268px;
+.h-252px {
+    height: 252px;
 }
 
 /* ==== Image Object Propertices ==== */
 
 .object-contain {
     object-fit: contain;
+}
+
+.object-cover {
+    object-fit: cover;
 }
 
 .object-center {
