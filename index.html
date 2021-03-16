@@ -18,51 +18,61 @@
 </head>
 
 <body>
-    <div class="background-img p-lg-5 px-sm-4 p-3">
+    <div class="background-img px-lg-5 px-sm-4 px-3 py-5">
         <!-- Header Section Start -->
         <header class="container-fluid px-0 mb-5">
-            <div class="d-flex align-items-center justify-content-between mb-4">
-                <div class="">
-                    <img src="./assets/images/logo.svg" alt="" class="adjust-logo">
-                </div>
-                <div class="">
-                    <div class="d-flex">
-                        <span class="h4 text-dark-blue mx-3 mb-0"><i class="fab fa-facebook-f"></i></span>
-                        <span class="h4 text-dark-blue mx-3 mb-0"><i class="fab fa-instagram"></i></span>
+            <nav class="navbar-expand-sm">
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <button class="navbar-toggler text-dark-blue pb-0" type="button" data-toggle="collapse"
+                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="">
+                        <img src="./assets/images/logo.svg" alt="" class="adjust-logo">
+                    </div>
+                    <div class="">
+                        <div class="d-flex">
+                            <span class="h4 text-dark-blue mx-sm-3 mx-2 mb-0"><i class="fab fa-facebook-f"></i></span>
+                            <span class="h4 text-dark-blue mx-sm-3 mx-2 mb-0"><i class="fab fa-instagram"></i></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <ul class="nav justify-content-md-start justify-content-center">
-                <li class="nav-item border-top border-dark-blue">
-                    <a class="nav-link pr-md-3 pl-md-0 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue active"
-                        href="#">PRODUCTS</a>
-                </li>
-                <li class="nav-item border-top border-dark-blue">
-                    <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
-                        href="#">AMBIENTE</a>
-                </li>
-                <li class="nav-item border-top border-dark-blue">
-                    <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
-                        href="#">ADVERTISING</a>
-                </li>
-                <li class="nav-item border-top border-dark-blue">
-                    <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
-                        href="#">MATERIAL</a>
-                </li>
-                <li class="nav-item border-top border-dark-blue">
-                    <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
-                        href="#">WHO IS
-                        WHo</a>
-                </li>
-                <li class="nav-item border-top border-dark-blue">
-                    <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
-                        href="#">PRESSE</a>
-                </li>
-                <li class="nav-item border-top border-dark-blue">
-                    <a class="nav-link pl-md-3 pr-md-0 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
-                        href="#">ARCHIVE</a>
-                </li>
-            </ul>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul
+                        class="navbar-nav flex-wrap justify-content-md-start justify-content-center text-sm-left text-center">
+                        <li class="nav-item border-top border-dark-blue">
+                            <a class="nav-link pr-md-3 pl-md-0 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue active"
+                                href="#">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item border-top border-dark-blue">
+                            <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
+                                href="#">AMBIENTE</a>
+                        </li>
+                        <li class="nav-item border-top border-dark-blue">
+                            <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
+                                href="#">ADVERTISING</a>
+                        </li>
+                        <li class="nav-item border-top border-dark-blue">
+                            <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
+                                href="#">MATERIAL</a>
+                        </li>
+                        <li class="nav-item border-top border-dark-blue">
+                            <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
+                                href="#">WHO IS
+                                WHo</a>
+                        </li>
+                        <li class="nav-item border-top border-dark-blue">
+                            <a class="nav-link px-md-3 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
+                                href="#">PRESSE</a>
+                        </li>
+                        <li class="nav-item border-top border-dark-blue">
+                            <a class="nav-link pl-md-3 pr-md-0 px-sm-2 px-1 p text-uppercase font-weight-bold text-dark-blue"
+                                href="#">ARCHIVE</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <!-- Header Section End -->
 
@@ -75,7 +85,7 @@
                         <div class="card bg-white border-light rounded shadow-d">
                             <div class="card-body px-3 py-4">
                                 <img src="./assets/images/img-1.png" alt=""
-                                    class="w-100 h-268px object-cover object-center">
+                                    class="w-100 h-268px object-contain object-center">
 
                                 <button
                                     class="btn bg-blue px-3 py-1 rounded-pill text-white d-flex mx-auto mb-4">HERUNTERLADEN
@@ -101,7 +111,7 @@
                         <div class="card bg-white border-light rounded shadow-d">
                             <div class="card-body px-3 py-4">
                                 <img src="./assets/images/img-1.png" alt=""
-                                    class="w-100 h-268px object-cover object-center">
+                                    class="w-100 h-268px object-contain object-center">
 
                                 <button
                                     class="btn bg-blue px-3 py-1 rounded-pill text-white d-flex mx-auto mb-4">HERUNTERLADEN
@@ -127,7 +137,7 @@
                         <div class="card bg-white border-light rounded shadow-d">
                             <div class="card-body px-3 py-4">
                                 <img src="./assets/images/img-1.png" alt=""
-                                    class="w-100 h-268px object-cover object-center">
+                                    class="w-100 h-268px object-contain object-center">
 
                                 <button
                                     class="btn bg-blue px-3 py-1 rounded-pill text-white d-flex mx-auto mb-4">HERUNTERLADEN
@@ -153,7 +163,7 @@
                         <div class="card bg-white border-light rounded shadow-d">
                             <div class="card-body px-3 py-4">
                                 <img src="./assets/images/img-1.png" alt=""
-                                    class="w-100 h-268px object-cover object-center">
+                                    class="w-100 h-268px object-contain object-center">
 
                                 <button
                                     class="btn bg-blue px-3 py-1 rounded-pill text-white d-flex mx-auto mb-4">HERUNTERLADEN
@@ -179,7 +189,7 @@
                         <div class="card bg-white border-light rounded shadow-d">
                             <div class="card-body px-3 py-4">
                                 <img src="./assets/images/img-1.png" alt=""
-                                    class="w-100 h-268px object-cover object-center">
+                                    class="w-100 h-268px object-contain object-center">
 
                                 <button
                                     class="btn bg-blue px-3 py-1 rounded-pill text-white d-flex mx-auto mb-4">HERUNTERLADEN
@@ -205,7 +215,7 @@
                         <div class="card bg-white border-light rounded shadow-d">
                             <div class="card-body px-3 py-4">
                                 <img src="./assets/images/img-1.png" alt=""
-                                    class="w-100 h-268px object-cover object-center">
+                                    class="w-100 h-268px object-contain object-center">
 
                                 <button
                                     class="btn bg-blue px-3 py-1 rounded-pill text-white d-flex mx-auto mb-4">HERUNTERLADEN
@@ -231,7 +241,7 @@
                         <div class="card bg-white border-light rounded shadow-d">
                             <div class="card-body px-3 py-4">
                                 <img src="./assets/images/img-1.png" alt=""
-                                    class="w-100 h-268px object-cover object-center">
+                                    class="w-100 h-268px object-contain object-center">
 
                                 <button
                                     class="btn bg-blue px-3 py-1 rounded-pill text-white d-flex mx-auto mb-4">HERUNTERLADEN
@@ -257,7 +267,7 @@
                         <div class="card bg-white border-light rounded shadow-d">
                             <div class="card-body px-3 py-4">
                                 <img src="./assets/images/img-1.png" alt=""
-                                    class="w-100 h-268px object-cover object-center">
+                                    class="w-100 h-268px object-contain object-center">
 
                                 <button
                                     class="btn bg-blue px-3 py-1 rounded-pill text-white d-flex mx-auto mb-4">HERUNTERLADEN
@@ -287,6 +297,38 @@
         <!-- Footer Section Start -->
         <footer class="container-fluid px-0">
             <hr class="border-dark-blue">
+            <div class="d-flex flex-wrap px-2">
+                <a href="#" class="p text-dark-blue font-weight-bold pl-sm-0 px-3 d-flex align-items-center">
+                    <span class="mr-3 mb-sm-1">
+                        <svg width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.33 3.67H3.67c-1.01 0-1.83.82-1.83 1.83v11c0 1 .82 1.83 1.83 1.83h14.66c1.01 0 1.84-.82 1.84-1.83v-11c0-1-.83-1.83-1.84-1.83zm-.36 3.9l-6.48 4.04a.93.93 0 01-.98 0L4.03 7.56a.78.78 0 11.83-1.32L11 10.08l6.14-3.84a.78.78 0 11.83 1.32z"
+                                fill="#000028" />
+                        </svg>
+                    </span>
+                    ANMELDUNG HÄNDLERNEWS
+                </a>
+                <a href="#" class="p text-dark-blue font-weight-bold px-3 d-flex align-items-center">
+                    <span class="mr-3 mb-sm-1">
+                        <svg width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.33 3.67H3.67c-1.01 0-1.83.82-1.83 1.83v11c0 1 .82 1.83 1.83 1.83h14.66c1.01 0 1.84-.82 1.84-1.83v-11c0-1-.83-1.83-1.84-1.83zm-.36 3.9l-6.48 4.04a.93.93 0 01-.98 0L4.03 7.56a.78.78 0 11.83-1.32L11 10.08l6.14-3.84a.78.78 0 11.83 1.32z"
+                                fill="#000028" />
+                        </svg>
+                    </span>
+                    ANMELDUNG NEWSLETTER
+                </a>
+                <a href="#" class="p text-dark-blue font-weight-bold px-3 d-flex align-items-center">
+                    <span class="mr-3 mb-sm-1">
+                        <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 4C7 4 2.73 7.11 1 11.5a11.83 11.83 0 0022 0C21.27 7.11 17 4 12 4zm0 12.5a5 5 0 110-10 5 5 0 010 10zm0-8a3 3 0 100 6 3 3 0 000-6z"
+                                fill="#000028" />
+                        </svg>
+                    </span>
+                    AKTUELER NEWSLETTER
+                </a>
+            </div>
         </footer>
         <!-- Footer Section End -->
 

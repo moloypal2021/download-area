@@ -50,7 +50,7 @@ h6, .h6, p, .p {
 
 .text-xs {
     font-size: 12px;
-    line-height: 17px;
+    line-height: 18px;
 }
 
 @media (min-width:576px) {
@@ -78,7 +78,7 @@ h6, .h6, p, .p {
     }
     .text-xs {
         font-size: 12px;
-        line-height: 17px;
+        line-height: 18px;
     }
 }
 
@@ -107,7 +107,7 @@ h6, .h6, p, .p {
     }
     .text-xs {
         font-size: 12px;
-        line-height: 17px;
+        line-height: 18px;
     }
 }
 
@@ -136,7 +136,7 @@ h6, .h6, p, .p {
     }
     .text-xs {
         font-size: 12px;
-        line-height: 17px;
+        line-height: 18px;
     }
 }
 
@@ -165,7 +165,7 @@ h6, .h6, p, .p {
     }
     .text-xs {
         font-size: 12px;
-        line-height: 17px;
+        line-height: 18px;
     }
 }
 
@@ -208,29 +208,36 @@ h6, .h6, p, .p {
 .background-img {
     background: url('../images/blue-bg.svg') right top no-repeat, url('../images/red-bg.svg') left bottom no-repeat;
     background-size: auto, auto;
+    transition-duration: 1s;
+}
+
+@media (max-width: 1326px) {
+    .background-img {
+        background-size: 72%, 64%;
+    }
 }
 
 @media (max-width: 1200px) {
     .background-img {
-        background-size: 70%, 70%;
+        background-size: 70%, 64%;
     }
 }
 
 @media (max-width: 1024px) {
     .background-img {
-        background-size: 75%, 75%;
+        background-size: 75%, 68%;
     }
 }
 
 @media (max-width: 991px) {
     .background-img {
-        background-size: 80%, 80%;
+        background-size: 80%, 75%;
     }
 }
 
 @media (max-width: 767px) {
     .background {
-        background-size: 90%, 90%;
+        background-size: 90%, 82%;
     }
 }
 
@@ -272,8 +279,8 @@ h6, .h6, p, .p {
 
 /* ==== Image Object Propertices ==== */
 
-.object-cover {
-    object-fit: cover;
+.object-contain {
+    object-fit: contain;
 }
 
 .object-center {
